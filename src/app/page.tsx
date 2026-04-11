@@ -997,7 +997,7 @@ const COST_CALC_STORY: Campaign = {
   slides: [
     {
       id: "cc-story",
-      label: "NEW TOOL",
+      label: "INDUSTRY INSIDER",
       heading: ["What does your", "yacht {really}", "cost?"],
       subtitle: "Free superyacht running cost calculator.",
       image: "/images/stock/maurits-bausenhart-v-5m2uAzhYM-unsplash.jpg",
@@ -1022,7 +1022,7 @@ const COST_CALC_POST: Campaign = {
   slides: [
     {
       id: "cc-post",
-      label: "NEW TOOL",
+      label: "INDUSTRY INSIDER",
       heading: ["What does your", "yacht {really}", "cost?"],
       subtitle: "Free running cost calculator for superyachts.",
       image: "/images/stock/maurits-bausenhart-v-5m2uAzhYM-unsplash.jpg",
