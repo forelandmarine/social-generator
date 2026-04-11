@@ -999,7 +999,7 @@ const COST_CALC_STORY: Campaign = {
       id: "cc-story",
       label: "NEW TOOL",
       heading: ["What does your", "yacht {really}", "cost?"],
-      subtitle: "Free superyacht running cost calculator.\n24–60m  \u00B7  Sail & Motor  \u00B7  9 cruising grounds",
+      subtitle: "Free superyacht running cost calculator.",
       image: "/images/stock/maurits-bausenhart-v-5m2uAzhYM-unsplash.jpg",
       inlineAccentColor: "#A8CFEA",
       labelColor: "#A8CFEA",
@@ -1024,7 +1024,7 @@ const COST_CALC_POST: Campaign = {
       id: "cc-post",
       label: "NEW TOOL",
       heading: ["What does your", "yacht {really}", "cost?"],
-      subtitle: "Free running cost calculator for superyachts.\n24–60m  \u00B7  Sail & Motor  \u00B7  9 cruising grounds",
+      subtitle: "Free running cost calculator for superyachts.",
       image: "/images/stock/maurits-bausenhart-v-5m2uAzhYM-unsplash.jpg",
       inlineAccentColor: "#A8CFEA",
       labelColor: "#A8CFEA",
@@ -1522,40 +1522,6 @@ function StorySlide({
         )}
       </div>
 
-      {/* IG sticker / button zone */}
-      {slide.igSticker && (
-        <div
-          style={{
-            position: "absolute",
-            bottom: format === "ig-story" ? s(200) : s(100),
-            left: 0,
-            right: 0,
-            display: "flex",
-            justifyContent: "center",
-            zIndex: 20,
-          }}
-        >
-          <div
-            style={{
-              background: C.white,
-              color: C.bg0,
-              fontSize: format === "ig-story" ? s(30) : s(28),
-              fontWeight: 700,
-              fontFamily: "'Nunito Sans', system-ui, sans-serif",
-              padding: format === "ig-story"
-                ? `${s(22)}px ${s(56)}px`
-                : `${s(18)}px ${s(48)}px`,
-              borderRadius: s(16),
-              letterSpacing: s(0.5),
-              boxShadow: "0 4px 24px rgba(0,0,0,0.35)",
-              textAlign: "center",
-            }}
-          >
-            forelandmarine.com
-          </div>
-        </div>
-      )}
-
       {/* Footer */}
       <div
         style={{
@@ -1565,21 +1531,19 @@ function StorySlide({
           right: 0,
           padding: isWide
             ? `0 ${padX}px ${s(24)}px`
-            : `0 ${padX}px ${s(slide.igSticker ? 50 : 80)}px`,
+            : `0 ${padX}px ${s(80)}px`,
         }}
       >
-        {!slide.igSticker && (
-          <div
-            style={{
-              width: "100%",
-              height: 1,
-              background: "rgba(255,255,255,0.15)",
-              marginBottom: s(isWide ? 12 : 24),
-            }}
-          />
-        )}
+        <div
+          style={{
+            width: "100%",
+            height: 1,
+            background: "rgba(255,255,255,0.15)",
+            marginBottom: s(isWide ? 12 : 24),
+          }}
+        />
         <div style={{ color: C.muted, fontSize: footerSize, fontWeight: 400 }}>
-          {slide.igSticker ? "" : "forelandmarine.com"}
+          forelandmarine.com
         </div>
       </div>
     </div>
