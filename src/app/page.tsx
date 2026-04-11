@@ -303,11 +303,123 @@ const AUTHORITY: Campaign = {
       subtitleColor: "#C8E0F0",
     },
     {
+      id: "auth-bridge",
+      label: "OPERATIONS",
+      heading: ["Every detail,", "under control."],
+      headingAccent: 1,
+      subtitle: "Bridge management, passage planning and operational oversight. We keep things running smoothly.",
+      image: "/images/stock/wolfgang-rottmann-0KgfaiL34hg-unsplash.jpg",
+      labelColor: "#A8CFEA",
+      subtitleColor: "#C8E0F0",
+      contentPosition: "top",
+      topOffset: 0.2,
+    },
+    {
+      id: "auth-crew",
+      label: "CREW",
+      heading: ["The right people", "in the right seats."],
+      subtitle: "Recruitment, training, HR and payroll.\nWe look after the team that looks after the yacht.",
+      image: "/images/stock/ibrahim-boran-XdIrwH98K_E-unsplash.jpg",
+      labelColor: "#A8CFEA",
+      subtitleColor: "#C8E0F0",
+      contentPosition: "top",
+      topOffset: 0.25,
+    },
+    {
+      id: "auth-nav",
+      label: "SAFETY",
+      heading: ["Precision", "isn't optional."],
+      headingAccent: 0,
+      subtitle: "ISM compliance, safety management systems and audit-ready documentation. Always.",
+      image: "/images/stock/leon-bredella-SacHhp1_6_U-unsplash.jpg",
+      labelColor: "#A8CFEA",
+      subtitleColor: "#C8E0F0",
+    },
+    {
+      id: "auth-regatta",
+      label: "REGATTA",
+      heading: ["From dock", "to start line."],
+      subtitle: "Campaign logistics, race crew, regulations and on-water support for superyacht regattas.",
+      image: "/images/stock/YAW275.ssw_jclass.st_barths_bucket17cb_06172_retouch.jpg",
+      labelColor: "#A8CFEA",
+      subtitleColor: "#C8E0F0",
+      contentPosition: "top",
+      topOffset: 0.2,
+    },
+    {
+      id: "auth-seamanship",
+      label: "SEAMANSHIP",
+      heading: ["Built on", "sea miles,", "not slide decks."],
+      headingAccent: 1,
+      subtitle: "Our team comes from the water. That experience shapes everything we do.",
+      image: "/images/stock/freysteinn-g-jonsson-RhiSGdkk664-unsplash.jpg",
+      labelColor: "#A8CFEA",
+      subtitleColor: "#C8E0F0",
+    },
+    {
+      id: "auth-compliance",
+      label: "COMPLIANCE",
+      heading: ["Flag state.", "Class.", "Insurance."],
+      headingAccent: 2,
+      subtitle: "We handle the paperwork so you don't have to think about it.",
+      image: "/images/stock/noah-kocherhans-asvLaFreJI0-unsplash.jpg",
+      labelColor: "#A8CFEA",
+      subtitleColor: "#C8E0F0",
+      contentPosition: "top",
+      topOffset: 0.2,
+    },
+    {
       id: "auth-cta",
       label: "",
       heading: ["Let's talk."],
       subtitle: "info@forelandmarine.com",
       image: "/images/stock/tobias-tullius-XZOO6QHub60-unsplash.jpg",
+      labelColor: "#A8CFEA",
+      subtitleColor: "#C8E0F0",
+      contentPosition: "top",
+      topOffset: 0.2,
+    },
+    {
+      id: "auth-cta-2",
+      label: "",
+      heading: ["Go ahead,", "over."],
+      subtitle: "info@forelandmarine.com",
+      image: "/images/stock/serena-rubbi-LzoRl7JexfA-unsplash.jpg",
+      labelColor: "#A8CFEA",
+      subtitleColor: "#C8E0F0",
+      contentPosition: "top",
+      topOffset: 0.2,
+    },
+    {
+      id: "auth-cta-3",
+      label: "",
+      heading: ["Your yacht.", "Our expertise."],
+      headingAccent: 1,
+      subtitle: "info@forelandmarine.com",
+      image: "/images/stock/maurits-bausenhart-v-5m2uAzhYM-unsplash.jpg",
+      labelColor: "#A8CFEA",
+      subtitleColor: "#C8E0F0",
+      contentPosition: "top",
+      topOffset: 0.2,
+    },
+    {
+      id: "auth-cta-4",
+      label: "",
+      heading: ["Get in touch."],
+      subtitle: "Independent advice.\nNo agenda, just answers.\n\ninfo@forelandmarine.com",
+      image: "/images/stock/renan-brun-ohz-mXxGpUw-unsplash.jpg",
+      labelColor: "#A8CFEA",
+      subtitleColor: "#C8E0F0",
+      contentPosition: "top",
+      topOffset: 0.2,
+    },
+    {
+      id: "auth-cta-5",
+      label: "",
+      heading: ["Start the", "conversation."],
+      headingAccent: 1,
+      subtitle: "info@forelandmarine.com",
+      image: "/images/stock/geio-tischler-zTiYT7HHzAE-unsplash.jpg",
       labelColor: "#A8CFEA",
       subtitleColor: "#C8E0F0",
       contentPosition: "top",
@@ -573,13 +685,493 @@ const LIGHTSHIP_POSTS: Campaign = {
   ],
 };
 
+/* ═══════════════════════════════════════════
+   CAMPAIGN 6 — INSTAGRAM STORIES VOL 2
+   ═══════════════════════════════════════════ */
+const STORIES_V2: Campaign = {
+  id: "stories-v2",
+  name: "Instagram Stories Vol 2",
+  description: "10 stories covering heritage, owner's rep, and craft",
+  format: "ig-story",
+  slides: [
+    {
+      id: "v2-heritage",
+      label: "HERITAGE",
+      heading: ["Built to", "outlast", "generations."],
+      headingAccent: 1,
+      subtitle: "We assist owners in the long stewardship of significant yachts.",
+      image: "/images/stock/jclass-racing.jpg",
+      labelColor: "#A8CFEA",
+      subtitleColor: "#C8E0F0",
+      contentPosition: "top",
+      topOffset: 0.2,
+    },
+    {
+      id: "v2-owners-rep",
+      label: "OWNER'S REPRESENTATIVE",
+      heading: ["Representing", "the owner."],
+      subtitle:
+        "We act between owner and shipyard, safeguarding programme, budget and original intent.",
+      image: "/images/stock/andrea-zignin-Us8dszDXx28-unsplash.jpg",
+      labelColor: "#A8CFEA",
+      subtitleColor: "#C8E0F0",
+      contentPosition: "top",
+      topOffset: 0.2,
+    },
+    {
+      id: "v2-global",
+      label: "GLOBAL REACH",
+      heading: ["Mediterranean.", "Caribbean.", "European yards."],
+      headingAccent: 2,
+      subtitle: "We attend wherever the vessel requires.",
+      image: "/images/stock/leo-talabardon-Yfu0TL31MEQ-unsplash.jpg",
+      labelColor: "#A8CFEA",
+      subtitleColor: "#C8E0F0",
+    },
+    {
+      id: "v2-survey",
+      label: "PRE-PURCHASE",
+      heading: ["Survey", "before", "commitment."],
+      subtitle: "Independent inspection prior to any purchase agreement.",
+      image: "/images/stock/peter-thomas-QtWL3xp-Hto-unsplash.jpg",
+      labelColor: "#A8CFEA",
+      subtitleColor: "#C8E0F0",
+      contentPosition: "top",
+      topOffset: 0.2,
+    },
+    {
+      id: "v2-budget",
+      label: "BUDGET CONTROL",
+      heading: ["Every line.", "Every invoice."],
+      subtitle:
+        "Detailed reporting and full transparency through to handover.",
+      image: "/images/stock/alexander-mils-l4-oK4lbKQ0-unsplash.jpg",
+      labelColor: "#A8CFEA",
+      subtitleColor: "#C8E0F0",
+      contentPosition: "top",
+      topOffset: 0.2,
+    },
+    {
+      id: "v2-quality",
+      label: "QUALITY ASSURANCE",
+      heading: ["Specification", "met in full."],
+      subtitle: "Regular site attendance, thorough snag lists and considered sign-off.",
+      image: "/images/stock/maurits-bausenhart-hAtm9G3TPR0-unsplash.jpg",
+      labelColor: "#A8CFEA",
+      subtitleColor: "#C8E0F0",
+      contentPosition: "top",
+      topOffset: 0.2,
+    },
+    {
+      id: "v2-jclass",
+      label: "J CLASS",
+      heading: ["Six J-Class.", "One team."],
+      subtitle:
+        "We have supported much of the active J-Class fleet. Few firms can say the same.",
+      image: "/images/stock/YAW275.ssw_jclass.st_barths_bucket17cb_06172_retouch.jpg",
+      labelColor: "#A8CFEA",
+      subtitleColor: "#C8E0F0",
+    },
+    {
+      id: "v2-people",
+      label: "OUR PEOPLE",
+      heading: ["Captains.", "Engineers.", "Sailors."],
+      headingAccent: 1,
+      subtitle: "Each member of the team has spent a career at sea.",
+      image: "/images/stock/freysteinn-g-jonsson-RhiSGdkk664-unsplash.jpg",
+      labelColor: "#A8CFEA",
+      subtitleColor: "#C8E0F0",
+      contentPosition: "top",
+      topOffset: 0.2,
+    },
+    {
+      id: "v2-handover",
+      label: "HANDOVER",
+      heading: ["Keel-laying", "to warranty."],
+      subtitle:
+        "We remain in place throughout the warranty period. Many advisors do not.",
+      image: "/images/stock/ian-keefe-o51ZmPzv95Q-unsplash.jpg",
+      labelColor: "#A8CFEA",
+      subtitleColor: "#C8E0F0",
+      contentPosition: "top",
+      topOffset: 0.2,
+    },
+    {
+      id: "v2-cta",
+      label: "",
+      heading: ["A conversation", "with a captain."],
+      headingAccent: 1,
+      subtitle: "info@forelandmarine.com",
+      image: "/images/stock/tobias-tullius-XZOO6QHub60-unsplash.jpg",
+      labelColor: "#A8CFEA",
+      subtitleColor: "#C8E0F0",
+      contentPosition: "top",
+      topOffset: 0.25,
+    },
+  ],
+};
+
+/* ═══════════════════════════════════════════
+   CAMPAIGN 7 — LINKEDIN PROFESSIONAL POSTS
+   ═══════════════════════════════════════════ */
+const LINKEDIN_PRO: Campaign = {
+  id: "linkedin-pro",
+  name: "LinkedIn Professional",
+  description: "10 professional LinkedIn posts covering industry insight",
+  format: "linkedin",
+  slides: [
+    {
+      id: "lp-independence",
+      label: "INDEPENDENCE",
+      heading: ["No commissions.", "No conflicts."],
+      subtitle:
+        "Independent advice the industry rarely offers, and owners increasingly demand.",
+      image: "/images/stock/simon-oberthaler-PtAQSowQxdo-unsplash.jpg",
+      labelColor: "#A8CFEA",
+      subtitleColor: "#C8E0F0",
+    },
+    {
+      id: "lp-refit-budgets",
+      label: "REFIT INSIGHT",
+      heading: ["Why refit budgets", "overrun."],
+      subtitle:
+        "Three patterns we see across heritage and modern refits, and how to avoid them.",
+      image: "/images/stories/06-refit.jpg",
+      labelColor: "#A8CFEA",
+      subtitleColor: "#C8E0F0",
+    },
+    {
+      id: "lp-newbuild-rep",
+      label: "NEW BUILD",
+      heading: ["The real value", "of an Owner's Rep."],
+      subtitle:
+        "Independent representation pays for itself before the keel is laid.",
+      image: "/images/stories/05-newbuild.jpg",
+      labelColor: "#A8CFEA",
+      subtitleColor: "#C8E0F0",
+    },
+    {
+      id: "lp-ism",
+      label: "COMPLIANCE",
+      heading: ["ISM isn't admin.", "It's safety."],
+      subtitle:
+        "Why a strong safety management system protects owners as much as crew.",
+      image: "/images/stories/04-management.jpg",
+      labelColor: "#A8CFEA",
+      subtitleColor: "#C8E0F0",
+    },
+    {
+      id: "lp-jclass",
+      label: "HERITAGE",
+      heading: ["Lessons from", "the J-Class fleet."],
+      subtitle:
+        "Six campaigns. One conclusion: heritage refits demand specialist hands.",
+      image: "/images/stock/YAW275.ssw_jclass.st_barths_bucket17cb_06172_retouch.jpg",
+      labelColor: "#A8CFEA",
+      subtitleColor: "#C8E0F0",
+    },
+    {
+      id: "lp-crew",
+      label: "CREW MANAGEMENT",
+      heading: ["Crew retention", "is a strategy."],
+      subtitle:
+        "The best yachts keep their people. Here's what they do differently.",
+      image: "/images/stock/ibrahim-boran-XdIrwH98K_E-unsplash.jpg",
+      labelColor: "#A8CFEA",
+      subtitleColor: "#C8E0F0",
+    },
+    {
+      id: "lp-survey",
+      label: "PRE-PURCHASE",
+      heading: ["Survey before", "you sign."],
+      subtitle:
+        "Why independent pre-purchase inspections are the cheapest decision an owner can make.",
+      image: "/images/stock/peter-thomas-QtWL3xp-Hto-unsplash.jpg",
+      labelColor: "#A8CFEA",
+      subtitleColor: "#C8E0F0",
+    },
+    {
+      id: "lp-yard",
+      label: "YARD SELECTION",
+      heading: ["Choosing the", "right shipyard."],
+      subtitle:
+        "Capability, capacity, culture. And the questions most owners forget to ask.",
+      image: "/images/stock/andrea-zignin-Us8dszDXx28-unsplash.jpg",
+      labelColor: "#A8CFEA",
+      subtitleColor: "#C8E0F0",
+    },
+    {
+      id: "lp-digital",
+      label: "DIGITAL TOOLS",
+      heading: ["Yacht admin,", "but a bit clever."],
+      subtitle:
+        "How Lightship ISM and SeaTime Tracker are changing fleet operations.",
+      image: "/images/stories/09-tools.jpg",
+      labelColor: "#A8CFEA",
+      subtitleColor: "#C8E0F0",
+    },
+    {
+      id: "lp-team",
+      label: "OUR TEAM",
+      heading: ["Built on sea miles,", "not slide decks."],
+      subtitle:
+        "Captains, chief engineers, professional sailors. All under one roof.",
+      image: "/images/stock/freysteinn-g-jonsson-RhiSGdkk664-unsplash.jpg",
+      labelColor: "#A8CFEA",
+      subtitleColor: "#C8E0F0",
+    },
+  ],
+};
+
+/* ═══════════════════════════════════════════
+   CAMPAIGN 8 — FORELAND SHIPYARD GROUP
+   ═══════════════════════════════════════════ */
+const SHIPYARD_GROUP: Campaign = {
+  id: "shipyard-group",
+  name: "Shipyard Group",
+  description: "5 LinkedIn posts introducing the Foreland Shipyard Group",
+  format: "linkedin",
+  slides: [
+    {
+      id: "sg-vision",
+      label: "FORELAND SHIPYARD GROUP",
+      heading: ["A network of", "superyacht yards."],
+      subtitle:
+        "Building purpose-built capacity in the locations the market needs most.",
+      image: "/images/shipyard/Network-Map.png",
+      labelColor: "#A8CFEA",
+      subtitleColor: "#C8E0F0",
+    },
+    {
+      id: "sg-portsmouth",
+      label: "PORTSMOUTH",
+      heading: ["A new yard", "for the Solent."],
+      subtitle:
+        "Tipner West. The largest remaining waterfront site in the UK's leading marine cluster.",
+      image: "/images/shipyard/Tipner-West-Aerial.jpg",
+      labelColor: "#A8CFEA",
+      subtitleColor: "#C8E0F0",
+    },
+    {
+      id: "sg-gibraltar",
+      label: "GIBRALTAR",
+      heading: ["A second base", "in the Mediterranean."],
+      subtitle:
+        "A concession fit-out at Cernaval, providing a direct foothold in the Mediterranean refit market.",
+      image: "/images/shipyard/Cernaval-Shipyard.jpg",
+      labelColor: "#A8CFEA",
+      subtitleColor: "#C8E0F0",
+    },
+    {
+      id: "sg-thesis",
+      label: "PHASE ONE",
+      heading: ["Two yards.", "One thesis."],
+      subtitle:
+        "A disciplined, two-site platform built around physical capacity, market rate and credible occupancy.",
+      image: "/images/stock/andrea-zignin-Us8dszDXx28-unsplash.jpg",
+      labelColor: "#A8CFEA",
+      subtitleColor: "#C8E0F0",
+    },
+    {
+      id: "sg-network",
+      label: "THE NETWORK",
+      heading: ["Five yards.", "Three regions.", "One operator."],
+      subtitle:
+        "Portsmouth and Gibraltar first. Athens, New England and Hong Kong to follow.",
+      image: "/images/shipyard/Keratsini-Aerial.png",
+      labelColor: "#A8CFEA",
+      subtitleColor: "#C8E0F0",
+    },
+  ],
+};
+
+/* ═══════════════════════════════════════════
+   CAMPAIGN 9 — RUNNING COST CALCULATOR (STORIES)
+   ═══════════════════════════════════════════ */
+const COST_CALC_STORIES: Campaign = {
+  id: "cost-calc-stories",
+  name: "Cost Calculator Stories",
+  description: "5 Instagram stories promoting the Running Cost Calculator",
+  format: "ig-story",
+  slides: [
+    {
+      id: "cc-hook",
+      label: "FORELAND MARINE",
+      heading: ["What does your", "yacht {really}", "cost?"],
+      headingAccent: undefined,
+      subtitle: "The number most owners don't know.",
+      image: "/images/stock/maurits-bausenhart-v-5m2uAzhYM-unsplash.jpg",
+      inlineAccentColor: "#A8CFEA",
+      labelColor: "#A8CFEA",
+      subtitleColor: "#C8E0F0",
+      contentPosition: "bottom",
+    },
+    {
+      id: "cc-problem",
+      label: "THE REAL COST",
+      heading: ["Purchase price", "is just the", "beginning."],
+      headingAccent: 2,
+      subtitle: "Crew alone can account for 38% of annual operating costs. Most buyers never see the full picture until it's too late.",
+      image: "/images/stock/alexander-mils-l4-oK4lbKQ0-unsplash.jpg",
+      labelColor: "#A8CFEA",
+      subtitleColor: "#C8E0F0",
+      contentPosition: "top",
+      topOffset: 0.2,
+    },
+    {
+      id: "cc-tool",
+      label: "NEW TOOL",
+      heading: ["Superyacht", "Running Cost", "Calculator."],
+      headingAccent: 2,
+      subtitle: "7 inputs. One realistic estimate.",
+      image: "/images/stock/steve-sullivant-hgdcBDBWwCU-unsplash.jpg",
+      labelColor: "#A8CFEA",
+      subtitleColor: "#C8E0F0",
+      contentPosition: "top",
+      topOffset: 0.2,
+      featurePills: [
+        "24–60m yachts",
+        "Sail & Motor",
+        "9 cruising grounds",
+        "3 currencies",
+        "Detailed breakdown",
+      ],
+    },
+    {
+      id: "cc-breakdown",
+      label: "FULL BREAKDOWN",
+      heading: ["Every cost,", "accounted for."],
+      subtitle: "Data-backed estimates from real operational budgets.",
+      image: "/images/stock/simon-oberthaler-PtAQSowQxdo-unsplash.jpg",
+      labelColor: "#A8CFEA",
+      subtitleColor: "#C8E0F0",
+      contentPosition: "top",
+      topOffset: 0.15,
+      serviceList: [
+        "Crew",
+        "Insurance",
+        "Maintenance & Repair",
+        "Berths & Marina Fees",
+        "Fuel & Consumables",
+        "Management Fees",
+        "Regulatory & Compliance",
+      ],
+    },
+    {
+      id: "cc-cta",
+      label: "",
+      heading: ["Try it", "now \u2192"],
+      headingAccent: 1,
+      subtitle: "forelandmarine.com/tools",
+      image: "/images/stock/karl-muscat-Pc85Zbj9K1Y-unsplash.jpg",
+      bgPosition: "0% center",
+      labelColor: "#A8CFEA",
+      subtitleColor: "#C8E0F0",
+      contentPosition: "top",
+      topOffset: 0.375,
+      cta: { text: "Running Cost Calculator" },
+    },
+  ],
+};
+
+/* ═══════════════════════════════════════════
+   CAMPAIGN 10 — RUNNING COST CALCULATOR (CAROUSEL)
+   ═══════════════════════════════════════════ */
+const COST_CALC_CAROUSEL: Campaign = {
+  id: "cost-calc-carousel",
+  name: "Cost Calculator Carousel",
+  description: "5 Instagram square carousel slides for the Running Cost Calculator",
+  format: "ig-square",
+  slides: [
+    {
+      id: "ccc-hook",
+      label: "FORELAND MARINE",
+      heading: ["What does", "your yacht", "{really} cost?"],
+      subtitle: "Swipe to find out \u2192",
+      image: "/images/stock/maurits-bausenhart-v-5m2uAzhYM-unsplash.jpg",
+      inlineAccentColor: "#A8CFEA",
+      labelColor: "#A8CFEA",
+      subtitleColor: "#C8E0F0",
+      contentPosition: "bottom",
+    },
+    {
+      id: "ccc-stat",
+      label: "DID YOU KNOW",
+      heading: ["Crew costs", "alone: {38%}"],
+      subtitle: "Insurance, maintenance, berths, fuel, management and compliance make up the rest. The total is often more than owners expect.",
+      image: "/images/stock/alexander-mils-l4-oK4lbKQ0-unsplash.jpg",
+      inlineAccentColor: "#A8CFEA",
+      labelColor: "#A8CFEA",
+      subtitleColor: "#C8E0F0",
+      contentPosition: "top",
+      topOffset: 0.15,
+    },
+    {
+      id: "ccc-categories",
+      label: "ANNUAL COSTS",
+      heading: [],
+      subtitle: "A 40m motor yacht can cost over \u20AC1.5M per year to run.",
+      image: "/images/stock/steve-sullivant-hgdcBDBWwCU-unsplash.jpg",
+      labelColor: "#A8CFEA",
+      subtitleColor: "#C8E0F0",
+      contentPosition: "top",
+      topOffset: 0.1,
+      serviceList: [
+        "Crew",
+        "Insurance",
+        "Maintenance & Repair",
+        "Berths & Marina Fees",
+        "Fuel & Consumables",
+        "Management Fees",
+        "Compliance",
+      ],
+    },
+    {
+      id: "ccc-tool",
+      label: "FREE TOOL",
+      heading: ["Superyacht", "Running Cost", "Calculator."],
+      headingAccent: 2,
+      subtitle: "Configure length, type, cruising ground, usage and more. Get a detailed annual estimate in seconds.",
+      image: "/images/stock/simon-oberthaler-PtAQSowQxdo-unsplash.jpg",
+      labelColor: "#A8CFEA",
+      subtitleColor: "#C8E0F0",
+      contentPosition: "top",
+      topOffset: 0.15,
+      featurePills: [
+        "24–60m",
+        "Sail & Motor",
+        "9 regions",
+        "Instant results",
+      ],
+    },
+    {
+      id: "ccc-cta",
+      label: "",
+      heading: ["Try it free."],
+      subtitle: "forelandmarine.com/tools",
+      image: "/images/stock/karl-muscat-Pc85Zbj9K1Y-unsplash.jpg",
+      bgPosition: "0% center",
+      labelColor: "#A8CFEA",
+      subtitleColor: "#C8E0F0",
+      contentPosition: "top",
+      topOffset: 0.3,
+      cta: { text: "Running Cost Calculator" },
+    },
+  ],
+};
+
 /* ───────── all campaigns ───────── */
 const ALL_CAMPAIGNS: Campaign[] = [
+  COST_CALC_STORIES,
+  COST_CALC_CAROUSEL,
   PRELAUNCH,
   LAUNCH,
   AUTHORITY,
   SEATIME,
   LINKEDIN,
+  STORIES_V2,
+  LINKEDIN_PRO,
+  SHIPYARD_GROUP,
   LI_BANNER,
   LI_ICON,
   LIGHTSHIP_BANNER,
@@ -693,13 +1285,17 @@ function StorySlide({
             paddingRight: w * 0.05,
           }}
         >
-          {/* Wordmark mode */}
+          {/* Wordmark mode — positioned far right */}
           {slide.wordmark && (
             <img
               src="/images/logos/foreland-marine-white.svg"
               alt="Foreland Marine"
               draggable={false}
               style={{
+                position: "absolute",
+                right: 50,
+                top: "50%",
+                transform: "translateY(-50%)",
                 width: w * 0.35,
                 objectFit: "contain",
                 opacity: 0.95,
@@ -710,7 +1306,7 @@ function StorySlide({
           {!slide.wordmark && slide.label && (
             <div
               style={{
-                color: slide.labelColor || C.accent,
+                color: slide.labelColor || C.muted,
                 fontSize: bannerLabelSize,
                 fontWeight: 600,
                 letterSpacing: w * 0.004,
@@ -727,7 +1323,7 @@ function StorySlide({
                 <div
                   key={i}
                   style={{
-                    color: slide.headingAccent === i ? C.accent : C.white,
+                    color: slide.headingAccent === i ? C.muted : C.white,
                     fontSize: bannerHeadingSize,
                     fontWeight: 300,
                     lineHeight: 1.15,
@@ -851,7 +1447,7 @@ function StorySlide({
         {slide.label && (
           <div
             style={{
-              color: slide.labelColor || C.accent,
+              color: slide.labelColor || C.muted,
               fontSize: labelSize,
               fontWeight: 600,
               letterSpacing: s(6),
@@ -863,14 +1459,16 @@ function StorySlide({
         )}
 
         {/* Accent bar */}
-        <div
-          style={{
-            width: s(60),
-            height: s(3),
-            background: C.accent,
-            marginBottom: s(isWide ? 20 : 40),
-          }}
-        />
+        {slide.label && (
+          <div
+            style={{
+              width: s(60),
+              height: s(3),
+              background: C.accent,
+              marginBottom: s(isWide ? 20 : 40),
+            }}
+          />
+        )}
 
         {/* Stat line */}
         {slide.statLine && (
@@ -889,7 +1487,7 @@ function StorySlide({
               >
                 <div
                   style={{
-                    color: C.accent,
+                    color: C.muted,
                     fontSize: isWide ? s(48) : s(72),
                     fontWeight: 300,
                     lineHeight: 1.1,
@@ -989,7 +1587,7 @@ function StorySlide({
                 <div
                   key={i}
                   style={{
-                    color: isAccentLine ? C.accent : C.white,
+                    color: isAccentLine ? C.muted : C.white,
                     fontSize: headingSize,
                     fontWeight: 300,
                     lineHeight: 1.1,
@@ -998,7 +1596,7 @@ function StorySlide({
                   {parts.length > 1
                     ? parts.map((part, j) =>
                         part.startsWith("{") && part.endsWith("}") ? (
-                          <span key={j} style={{ color: slide.inlineAccentColor || C.accent }}>
+                          <span key={j} style={{ color: slide.inlineAccentColor || C.muted }}>
                             {part.slice(1, -1)}
                           </span>
                         ) : (
@@ -1068,7 +1666,7 @@ function StorySlide({
             marginBottom: s(isWide ? 12 : 24),
           }}
         />
-        <div style={{ color: C.accent, fontSize: footerSize, fontWeight: 400 }}>
+        <div style={{ color: C.muted, fontSize: footerSize, fontWeight: 400 }}>
           forelandmarine.com
         </div>
       </div>
@@ -1114,6 +1712,164 @@ function PreviewCard({
   );
 }
 
+/* ───────── animated reel preview ───────── */
+function ReelPreview({
+  slides,
+  format,
+  onClose,
+}: {
+  slides: SlideData[];
+  format: FormatKey;
+  onClose: () => void;
+}) {
+  const { w, h } = FORMATS[format];
+  const [currentSlide, setCurrentSlide] = useState(0);
+  const [phase, setPhase] = useState<"hold" | "scroll">("hold");
+  const [scrollProgress, setScrollProgress] = useState(0);
+  const animRef = useRef<number>(0);
+  const startTimeRef = useRef(0);
+
+  const HOLD_MS = 2200;
+  const SCROLL_MS = 600;
+
+  useEffect(() => {
+    let cancelled = false;
+
+    const animate = (timestamp: number) => {
+      if (cancelled) return;
+      if (!startTimeRef.current) startTimeRef.current = timestamp;
+      const elapsed = timestamp - startTimeRef.current;
+
+      if (phase === "hold") {
+        if (elapsed >= HOLD_MS) {
+          if (currentSlide < slides.length - 1) {
+            setPhase("scroll");
+            startTimeRef.current = 0;
+          } else {
+            // Loop back to start
+            setCurrentSlide(0);
+            setPhase("hold");
+            startTimeRef.current = 0;
+          }
+        }
+      } else {
+        const progress = Math.min(elapsed / SCROLL_MS, 1);
+        // Ease out cubic
+        const eased = 1 - Math.pow(1 - progress, 3);
+        setScrollProgress(eased);
+        if (progress >= 1) {
+          setCurrentSlide((prev) => prev + 1);
+          setScrollProgress(0);
+          setPhase("hold");
+          startTimeRef.current = 0;
+        }
+      }
+
+      animRef.current = requestAnimationFrame(animate);
+    };
+
+    animRef.current = requestAnimationFrame(animate);
+    return () => {
+      cancelled = true;
+      cancelAnimationFrame(animRef.current);
+    };
+  }, [phase, currentSlide, slides.length]);
+
+  // Reset when phase changes
+  useEffect(() => {
+    startTimeRef.current = 0;
+  }, [phase, currentSlide]);
+
+  const previewH = Math.min(window.innerHeight - 120, 800);
+  const previewW = (previewH / h) * w;
+  const scale = previewH / h;
+
+  const translateY = -(currentSlide + scrollProgress) * h;
+
+  return (
+    <div
+      style={{
+        position: "fixed",
+        inset: 0,
+        zIndex: 1000,
+        background: "rgba(0,0,0,0.85)",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        cursor: "pointer",
+      }}
+      onClick={onClose}
+    >
+      <div
+        onClick={(e) => e.stopPropagation()}
+        style={{ cursor: "default", textAlign: "center" }}
+      >
+        <div
+          style={{
+            width: previewW,
+            height: previewH,
+            overflow: "hidden",
+            borderRadius: 20,
+            border: "2px solid rgba(255,255,255,0.15)",
+            margin: "0 auto",
+            position: "relative",
+          }}
+        >
+          <div
+            style={{
+              transform: `scale(${scale}) translateY(${translateY}px)`,
+              transformOrigin: "top left",
+              width: w,
+              position: "absolute",
+              top: 0,
+              left: 0,
+            }}
+          >
+            {slides.map((slide, i) => (
+              <div key={slide.id} style={{ width: w, height: h }}>
+                <StorySlide slide={slide} w={w} h={h} format={format} />
+              </div>
+            ))}
+          </div>
+        </div>
+        {/* Slide indicator dots */}
+        <div
+          style={{
+            display: "flex",
+            gap: 8,
+            justifyContent: "center",
+            marginTop: 16,
+          }}
+        >
+          {slides.map((_, i) => (
+            <div
+              key={i}
+              style={{
+                width: 8,
+                height: 8,
+                borderRadius: 4,
+                background:
+                  i === currentSlide ? C.accent : "rgba(255,255,255,0.3)",
+                transition: "background 0.2s",
+              }}
+            />
+          ))}
+        </div>
+        <div
+          style={{
+            color: C.muted,
+            fontSize: 13,
+            marginTop: 12,
+            fontFamily: "'Nunito Sans', system-ui, sans-serif",
+          }}
+        >
+          Click anywhere outside to close
+        </div>
+      </div>
+    </div>
+  );
+}
+
 /* ═══════════════════════════════════════════════════
    MAIN PAGE
    ═══════════════════════════════════════════════════ */
@@ -1125,6 +1881,7 @@ export default function StoriesPage() {
   const refs = useRef<(HTMLDivElement | null)[]>([]);
   const [busy, setBusy] = useState(false);
   const [status, setStatus] = useState("");
+  const [showReel, setShowReel] = useState(false);
 
   const setRef = useCallback(
     (i: number) => (el: HTMLDivElement | null) => {
@@ -1136,7 +1893,12 @@ export default function StoriesPage() {
   const preloadImage = (src: string) =>
     new Promise<void>((resolve) => {
       const img = new Image();
-      img.onload = () => resolve();
+      img.onload = async () => {
+        try {
+          await img.decode();
+        } catch {}
+        resolve();
+      };
       img.onerror = () => resolve();
       img.src = src;
     });
@@ -1158,7 +1920,7 @@ export default function StoriesPage() {
       width: f.w,
       height: f.h,
       pixelRatio: 1,
-      cacheBust: true,
+      cacheBust: false,
     };
     // Triple-call: first two warm up fonts/images, third produces clean output
     await toPng(el, opts);
@@ -1213,7 +1975,7 @@ export default function StoriesPage() {
           width: f.w,
           height: f.h,
           pixelRatio: 1,
-          cacheBust: true,
+          cacheBust: false,
         };
         await toPng(el, opts);
         await new Promise((r) => setTimeout(r, 150));
@@ -1320,6 +2082,24 @@ export default function StoriesPage() {
           </p>
         </div>
         <div style={{ display: "flex", gap: 12 }}>
+          {campaign.format !== "li-banner" && campaign.format !== "li-icon" && (
+            <button
+              onClick={() => setShowReel(true)}
+              style={{
+                background: "transparent",
+                color: C.green,
+                border: `1px solid ${C.green}`,
+                padding: "12px 20px",
+                borderRadius: 6,
+                fontSize: 13,
+                fontWeight: 600,
+                cursor: "pointer",
+                fontFamily: "'Nunito Sans', system-ui, sans-serif",
+              }}
+            >
+              ▶ Reel Preview
+            </button>
+          )}
           <button
             onClick={captureAllCampaigns}
             disabled={busy}
@@ -1414,6 +2194,15 @@ export default function StoriesPage() {
           />
         </div>
       ))}
+
+      {/* Reel preview modal */}
+      {showReel && (
+        <ReelPreview
+          slides={campaign.slides}
+          format={campaign.format}
+          onClose={() => setShowReel(false)}
+        />
+      )}
     </div>
   );
 }
