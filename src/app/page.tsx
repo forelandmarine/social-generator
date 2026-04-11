@@ -52,6 +52,7 @@ interface SlideData {
   subtitleColor?: string;
   logoOnly?: boolean;
   wordmark?: boolean;
+  igSticker?: boolean;
 }
 
 interface Campaign {
@@ -986,184 +987,59 @@ const SHIPYARD_GROUP: Campaign = {
 };
 
 /* ═══════════════════════════════════════════
-   CAMPAIGN 9 — RUNNING COST CALCULATOR (STORIES)
+   CAMPAIGN 9 — RUNNING COST CALCULATOR (SINGLE STORY)
    ═══════════════════════════════════════════ */
-const COST_CALC_STORIES: Campaign = {
-  id: "cost-calc-stories",
-  name: "Cost Calculator Stories",
-  description: "5 Instagram stories promoting the Running Cost Calculator",
+const COST_CALC_STORY: Campaign = {
+  id: "cost-calc-story",
+  name: "Cost Calculator Story",
+  description: "Single IG story with space for link sticker",
   format: "ig-story",
   slides: [
     {
-      id: "cc-hook",
-      label: "FORELAND MARINE",
+      id: "cc-story",
+      label: "NEW TOOL",
       heading: ["What does your", "yacht {really}", "cost?"],
-      headingAccent: undefined,
-      subtitle: "The number most owners don't know.",
+      subtitle: "Free superyacht running cost calculator.\n24–60m  \u00B7  Sail & Motor  \u00B7  9 cruising grounds",
       image: "/images/stock/maurits-bausenhart-v-5m2uAzhYM-unsplash.jpg",
       inlineAccentColor: "#A8CFEA",
       labelColor: "#A8CFEA",
       subtitleColor: "#C8E0F0",
-      contentPosition: "bottom",
-    },
-    {
-      id: "cc-problem",
-      label: "THE REAL COST",
-      heading: ["Purchase price", "is just the", "beginning."],
-      headingAccent: 2,
-      subtitle: "Crew alone can account for 38% of annual operating costs. Most buyers never see the full picture until it's too late.",
-      image: "/images/stock/alexander-mils-l4-oK4lbKQ0-unsplash.jpg",
-      labelColor: "#A8CFEA",
-      subtitleColor: "#C8E0F0",
       contentPosition: "top",
-      topOffset: 0.2,
-    },
-    {
-      id: "cc-tool",
-      label: "NEW TOOL",
-      heading: ["Superyacht", "Running Cost", "Calculator."],
-      headingAccent: 2,
-      subtitle: "7 inputs. One realistic estimate.",
-      image: "/images/stock/steve-sullivant-hgdcBDBWwCU-unsplash.jpg",
-      labelColor: "#A8CFEA",
-      subtitleColor: "#C8E0F0",
-      contentPosition: "top",
-      topOffset: 0.2,
-      featurePills: [
-        "24–60m yachts",
-        "Sail & Motor",
-        "9 cruising grounds",
-        "3 currencies",
-        "Detailed breakdown",
-      ],
-    },
-    {
-      id: "cc-breakdown",
-      label: "FULL BREAKDOWN",
-      heading: ["Every cost,", "accounted for."],
-      subtitle: "Data-backed estimates from real operational budgets.",
-      image: "/images/stock/simon-oberthaler-PtAQSowQxdo-unsplash.jpg",
-      labelColor: "#A8CFEA",
-      subtitleColor: "#C8E0F0",
-      contentPosition: "top",
-      topOffset: 0.15,
-      serviceList: [
-        "Crew",
-        "Insurance",
-        "Maintenance & Repair",
-        "Berths & Marina Fees",
-        "Fuel & Consumables",
-        "Management Fees",
-        "Regulatory & Compliance",
-      ],
-    },
-    {
-      id: "cc-cta",
-      label: "",
-      heading: ["Try it", "now \u2192"],
-      headingAccent: 1,
-      subtitle: "forelandmarine.com/tools",
-      image: "/images/stock/karl-muscat-Pc85Zbj9K1Y-unsplash.jpg",
-      bgPosition: "0% center",
-      labelColor: "#A8CFEA",
-      subtitleColor: "#C8E0F0",
-      contentPosition: "top",
-      topOffset: 0.375,
-      cta: { text: "Running Cost Calculator" },
+      topOffset: 0.18,
+      igSticker: true,
     },
   ],
 };
 
 /* ═══════════════════════════════════════════
-   CAMPAIGN 10 — RUNNING COST CALCULATOR (CAROUSEL)
+   CAMPAIGN 10 — RUNNING COST CALCULATOR (SINGLE POST)
    ═══════════════════════════════════════════ */
-const COST_CALC_CAROUSEL: Campaign = {
-  id: "cost-calc-carousel",
-  name: "Cost Calculator Carousel",
-  description: "5 Instagram square carousel slides for the Running Cost Calculator",
+const COST_CALC_POST: Campaign = {
+  id: "cost-calc-post",
+  name: "Cost Calculator Post",
+  description: "Single IG square post with space for action button",
   format: "ig-square",
   slides: [
     {
-      id: "ccc-hook",
-      label: "FORELAND MARINE",
-      heading: ["What does", "your yacht", "{really} cost?"],
-      subtitle: "Swipe to find out \u2192",
+      id: "cc-post",
+      label: "NEW TOOL",
+      heading: ["What does your", "yacht {really}", "cost?"],
+      subtitle: "Free running cost calculator for superyachts.\n24–60m  \u00B7  Sail & Motor  \u00B7  9 cruising grounds",
       image: "/images/stock/maurits-bausenhart-v-5m2uAzhYM-unsplash.jpg",
       inlineAccentColor: "#A8CFEA",
       labelColor: "#A8CFEA",
       subtitleColor: "#C8E0F0",
-      contentPosition: "bottom",
-    },
-    {
-      id: "ccc-stat",
-      label: "DID YOU KNOW",
-      heading: ["Crew costs", "alone: {38%}"],
-      subtitle: "Insurance, maintenance, berths, fuel, management and compliance make up the rest. The total is often more than owners expect.",
-      image: "/images/stock/alexander-mils-l4-oK4lbKQ0-unsplash.jpg",
-      inlineAccentColor: "#A8CFEA",
-      labelColor: "#A8CFEA",
-      subtitleColor: "#C8E0F0",
       contentPosition: "top",
-      topOffset: 0.15,
-    },
-    {
-      id: "ccc-categories",
-      label: "ANNUAL COSTS",
-      heading: [],
-      subtitle: "A 40m motor yacht can cost over \u20AC1.5M per year to run.",
-      image: "/images/stock/steve-sullivant-hgdcBDBWwCU-unsplash.jpg",
-      labelColor: "#A8CFEA",
-      subtitleColor: "#C8E0F0",
-      contentPosition: "top",
-      topOffset: 0.1,
-      serviceList: [
-        "Crew",
-        "Insurance",
-        "Maintenance & Repair",
-        "Berths & Marina Fees",
-        "Fuel & Consumables",
-        "Management Fees",
-        "Compliance",
-      ],
-    },
-    {
-      id: "ccc-tool",
-      label: "FREE TOOL",
-      heading: ["Superyacht", "Running Cost", "Calculator."],
-      headingAccent: 2,
-      subtitle: "Configure length, type, cruising ground, usage and more. Get a detailed annual estimate in seconds.",
-      image: "/images/stock/simon-oberthaler-PtAQSowQxdo-unsplash.jpg",
-      labelColor: "#A8CFEA",
-      subtitleColor: "#C8E0F0",
-      contentPosition: "top",
-      topOffset: 0.15,
-      featurePills: [
-        "24–60m",
-        "Sail & Motor",
-        "9 regions",
-        "Instant results",
-      ],
-    },
-    {
-      id: "ccc-cta",
-      label: "",
-      heading: ["Try it free."],
-      subtitle: "forelandmarine.com/tools",
-      image: "/images/stock/karl-muscat-Pc85Zbj9K1Y-unsplash.jpg",
-      bgPosition: "0% center",
-      labelColor: "#A8CFEA",
-      subtitleColor: "#C8E0F0",
-      contentPosition: "top",
-      topOffset: 0.3,
-      cta: { text: "Running Cost Calculator" },
+      topOffset: 0.12,
+      igSticker: true,
     },
   ],
 };
 
 /* ───────── all campaigns ───────── */
 const ALL_CAMPAIGNS: Campaign[] = [
-  COST_CALC_STORIES,
-  COST_CALC_CAROUSEL,
+  COST_CALC_STORY,
+  COST_CALC_POST,
   PRELAUNCH,
   LAUNCH,
   AUTHORITY,
@@ -1646,6 +1522,40 @@ function StorySlide({
         )}
       </div>
 
+      {/* IG sticker / button zone */}
+      {slide.igSticker && (
+        <div
+          style={{
+            position: "absolute",
+            bottom: format === "ig-story" ? s(200) : s(100),
+            left: 0,
+            right: 0,
+            display: "flex",
+            justifyContent: "center",
+            zIndex: 20,
+          }}
+        >
+          <div
+            style={{
+              background: C.white,
+              color: C.bg0,
+              fontSize: format === "ig-story" ? s(30) : s(28),
+              fontWeight: 700,
+              fontFamily: "'Nunito Sans', system-ui, sans-serif",
+              padding: format === "ig-story"
+                ? `${s(22)}px ${s(56)}px`
+                : `${s(18)}px ${s(48)}px`,
+              borderRadius: s(16),
+              letterSpacing: s(0.5),
+              boxShadow: "0 4px 24px rgba(0,0,0,0.35)",
+              textAlign: "center",
+            }}
+          >
+            forelandmarine.com
+          </div>
+        </div>
+      )}
+
       {/* Footer */}
       <div
         style={{
@@ -1655,19 +1565,21 @@ function StorySlide({
           right: 0,
           padding: isWide
             ? `0 ${padX}px ${s(24)}px`
-            : `0 ${padX}px ${s(80)}px`,
+            : `0 ${padX}px ${s(slide.igSticker ? 50 : 80)}px`,
         }}
       >
-        <div
-          style={{
-            width: "100%",
-            height: 1,
-            background: "rgba(255,255,255,0.15)",
-            marginBottom: s(isWide ? 12 : 24),
-          }}
-        />
+        {!slide.igSticker && (
+          <div
+            style={{
+              width: "100%",
+              height: 1,
+              background: "rgba(255,255,255,0.15)",
+              marginBottom: s(isWide ? 12 : 24),
+            }}
+          />
+        )}
         <div style={{ color: C.muted, fontSize: footerSize, fontWeight: 400 }}>
-          forelandmarine.com
+          {slide.igSticker ? "" : "forelandmarine.com"}
         </div>
       </div>
     </div>
