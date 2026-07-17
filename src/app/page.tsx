@@ -1036,8 +1036,32 @@ const COST_CALC_POST: Campaign = {
   ],
 };
 
+/* ═══════════════════════════════════════════
+   CAMPAIGN 11 — REFIT WINTER 2026/27
+   ═══════════════════════════════════════════ */
+const REFIT_WINTER: Campaign = {
+  id: "refit-winter",
+  name: "Refit Winter 26/27",
+  description: "LinkedIn post image for the Mediterranean winter refit season",
+  format: "linkedin",
+  slides: [
+    {
+      id: "rw-season",
+      label: "REFIT PROJECT MANAGEMENT",
+      heading: ["Mediterranean", "winter 2026/27."],
+      headingAccent: 1,
+      subtitle:
+        "Independent refit project management,\n24 to 60 metres. We work for the owner,\nnot the yard.\n\ninfo@forelandmarine.com",
+      image: "/images/stories/06-refit.jpg",
+      labelColor: "#A8CFEA",
+      subtitleColor: "#C8E0F0",
+    },
+  ],
+};
+
 /* ───────── all campaigns ───────── */
 const ALL_CAMPAIGNS: Campaign[] = [
+  REFIT_WINTER,
   COST_CALC_STORY,
   COST_CALC_POST,
   PRELAUNCH,
