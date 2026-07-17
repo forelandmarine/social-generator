@@ -1051,7 +1051,7 @@ const REFIT_WINTER: Campaign = {
       heading: ["Mediterranean", "winter 2026/27."],
       headingAccent: 1,
       subtitle:
-        "Independent refit project management,\n24 to 60 metres. We work for the owner,\nnot the yard.\n\ninfo@forelandmarine.com",
+        "Independent refit project management,\n24 to 60 metres. Now taking on projects\nfor the winter season.\n\ninfo@forelandmarine.com",
       image: "/images/stories/06-refit.jpg",
       labelColor: "#A8CFEA",
       subtitleColor: "#C8E0F0",
