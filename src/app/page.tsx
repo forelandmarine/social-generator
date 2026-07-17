@@ -1047,7 +1047,7 @@ const REFIT_WINTER: Campaign = {
   slides: [
     {
       id: "rw-season",
-      label: "REFIT PROJECT MANAGEMENT",
+      label: "",
       heading: ["Mediterranean", "winter 2026/27."],
       headingAccent: 1,
       subtitle:
